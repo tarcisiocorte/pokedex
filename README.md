@@ -22,6 +22,11 @@ Clone this repository to your local machine using the following command:
 
 ```sh
 git clone https://github.com/your-username/pokedex.git
+````
+
+Execute the docker-compose
+
+```sh
 cd pokedex
 docker-compose up -d --build
 ````
