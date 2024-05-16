@@ -21,7 +21,7 @@ Follow these instructions to get the project up and running on your local machin
 Clone this repository to your local machine using the following command:
 
 ```sh
-git clone https://github.com/your-username/pokedex.git
+git clone https://github.com/tarcisiocorte/pokedex.git
 ````
 
 Execute the docker-compose
@@ -38,14 +38,13 @@ It will execute in the localhost port 80
 Clone this repository to your local machine using the following command:
 
 ```sh
-git clone https://github.com/your-username/pokedex.git
-cd pokedex
-docker-compose up -d --build
+git clone https://github.com/tarcisiocorte/pokedex.git
 ````
 
 #### Step 2: Setup the backend
 Navigate to the backend application directory and install the dependencies:
 ```sh
+cd pokedex
 cd pokeapi-bff
 npm install
 ````
@@ -57,6 +56,7 @@ npm start
 #### Step 3: Setup the frontend
 Navigate to the frontend application directory and install the dependencies:
 ```sh
+cd pokedex
 cd angular-jest
 npm install
 ````
