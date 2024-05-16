@@ -11,8 +11,6 @@ export class PokemonController {
     @Query('offset') offset = 0,
     @Query('limit') limit = 12,
   ): Promise<Pokemon[]> {
-    console.log('passou aqui.');
-
     return this.pokemonService.getPokemon(offset, limit);
   }
 
