@@ -1,6 +1,7 @@
-# Pokedex
+# Pokedex | Technical and Practical Assessment
 
-Welcome to the Pokedex project! This repository contains a frontend application built with Angular and Jest, and a backend application built with NestJS. The entire project is containerized using Docker Compose.
+Welcome to the Pokedex project! 
+This repository contains a frontend application built with Angular and Jest, and a backend application built with NestJS. The entire project is containerized using Docker Compose.
 
 ## Prerequisites
 
