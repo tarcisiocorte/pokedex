@@ -1,0 +1,21 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./pokeapi-bff
+    container_name: backend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./pokeapi-bff:/app
+    environment:
+      NODE_ENV: production
+
+  frontend:
+    build:
+      context: ./angular-jest
+    container_name: frontend
+    ports:
+      - "80:80"
+    volumes:
+      - ./angular-jest:/app

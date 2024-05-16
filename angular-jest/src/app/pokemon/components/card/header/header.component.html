@@ -1,0 +1,14 @@
+<header class="ms-4">
+  <div class="d-flex justify-content-start gap-4 mb-2">
+    <img src="../../../assets/pokeball.svg" alt="Pokeball">
+    <h1 class="text-white fw-bold">
+      Pokédex | Practical Assessment
+    </h1>
+  </div>
+  <div class="input-group ">
+    <img class="bg-white rounded-start-pill input-group-text pr-2" src="../../../assets/search.svg" alt="Search"
+      (click)="onChangeInput(buscador.value)">
+    <input type="text" class="w-50 rounded-end-pill" #buscador (keyup.enter)="onChangeInput(buscador.value)"
+      placeholder="Find by pokemon name">
+  </div>
+</header>
